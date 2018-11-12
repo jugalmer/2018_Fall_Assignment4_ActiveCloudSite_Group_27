@@ -59,6 +59,10 @@ namespace MVCTemplate.Controllers
 
             return View(companies);
         }
+        public IActionResult implementationselfreflection()
+        {
+            return View();
+        }
 
         public IActionResult SaveTop5()
         {
